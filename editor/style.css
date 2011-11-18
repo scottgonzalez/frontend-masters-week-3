@@ -1,0 +1,39 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 1.5em;
+  background: #f4fafe;
+  background: -moz-linear-gradient(top, #f4fafe 0%, #ccf0f0 100%);
+  background: -webkit-linear-gradient(top, #f4fafe 0%, #ccf0f0 100%);
+  background: -o-linear-gradient(top, #f4fafe 0%, #ccf0f0 100%);
+  background: -ms-linear-gradient(top, #f4fafe 0%, #ccf0f0 100%);
+  background: linear-gradient(top, #f4fafe 0%, #ccf0f0 100%);
+  background-attachment: fixed;
+  padding: 10px;
+  margin: 0;
+}
+h1 {
+  color: #08455f;
+  font-family: "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.25em;
+  margin: 5px 0;
+}
+.clickable {
+  cursor: pointer;
+}
+#preview {
+  position: fixed;
+  right: 10px;
+  z-index: 1;
+}
+#preview iframe {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #cde;
+  background: #fff;
+}
+body .CodeMirror-scroll {
+  height: 400px;
+  border: 1px solid #cde;
+  background: #fff;
+  margin-right: 410px;
+}
